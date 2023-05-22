@@ -100,8 +100,10 @@ console.log(somenum)
 
 if(myFavoriteNumbers.length < 7){
   console.log('There are not enough elements in this array')
-} else {
+} else if (myFavoriteNumbers.length > 7) {
   somenum = myFavoriteNumbers[6]
+} else {
+  console.log('seven!')
 }
 console.log(somenum)
 
